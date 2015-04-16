@@ -14,4 +14,22 @@ public class FizzBuzz {
 
 		return inputNumber.toString();
 	}
+
+	public Integer checkInput(String choice) {
+		Integer inputNumber = 0;
+		try {
+			inputNumber = inputNumber.parseInt(choice);
+
+		} catch (NumberFormatException nfe) {
+			System.out.println("Please input a Number.");
+			return -1;
+		}
+
+		if (inputNumber >= 0)
+			return inputNumber;
+		else{
+			System.out.println("Please input a positive Number");
+			return -1;
+		}
+	}
 }
