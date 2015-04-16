@@ -28,11 +28,10 @@ public class FizzBuzzConsoleApplication {
 
 				choice = input.nextLine();
 				if (choice.equals("1"))
-					inputNumber=-1;
-				else{
+					inputNumber = -1;
+				else {
 					break;
 				}
-				
 
 			}
 

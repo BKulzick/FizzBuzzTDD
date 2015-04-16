@@ -27,7 +27,7 @@ public class FizzBuzz {
 
 		if (inputNumber >= 0)
 			return inputNumber;
-		else{
+		else {
 			System.out.println("Please input a positive Number");
 			return -1;
 		}
