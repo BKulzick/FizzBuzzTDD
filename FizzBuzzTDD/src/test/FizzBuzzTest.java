@@ -12,5 +12,9 @@ public class FizzBuzzTest {
 		FizzBuzz fizzBuzz = new FizzBuzz();
 		assertEquals("1", fizzBuzz.fizz(1));
 	}
-
+	@Test
+	public void whenFizzBuzzIsPassedATwoItReturnsaTwo(){
+		FizzBuzz fizzBuzz = new FizzBuzz();
+		assertEquals("2", fizzBuzz.fizz(2));
+	}
 }

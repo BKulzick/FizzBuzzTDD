@@ -2,9 +2,9 @@ package main;
 
 public class FizzBuzz {
 
-	public String fizz(int inputNumber) {
-		// TODO Auto-generated method stub
-		return null;
+	public String fizz(Integer inputNumber) {
+		
+		return inputNumber.toString();
 	}
 
 }
