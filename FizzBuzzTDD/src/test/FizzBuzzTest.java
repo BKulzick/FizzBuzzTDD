@@ -38,6 +38,10 @@ public class FizzBuzzTest {
 
 	}
 
-
+	@Test
+	public void whenFizzBuzzIsPassedAFiveSayBuzz() {
+		assertEquals("Buzz", fizzBuzz.fizz(5));
+		assertEquals("Buzz", fizzBuzz.fizz(10));
+	}
 
 }
